@@ -5,6 +5,9 @@ Dockerを使っています。
 ※macでの確認はしていません。
 
 # 開発環境
+
+![Alt text](image.png)
+
 名称|バージョン|説明
 ---|----|----
 Docker|24.0.6|コンテナ型仮想環境
@@ -24,7 +27,7 @@ docker-compose up -d
 
 ```
 
-# vscodeでデバッグを実行する
+# vscodeの操作
 
 ## 操作
 デバッグタブを開く。
@@ -38,6 +41,7 @@ breakpointが止まることを確認する。
 
 以下gif動画で動かしたときの様子。
 
+![Alt text](Xdebug2.gif)
 
 # 参考
 
