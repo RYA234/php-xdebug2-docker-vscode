@@ -1,0 +1,15 @@
+{
+    // Xdebugの設定ファイル
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "XDebug on docker",
+            "type": "php",
+            "request": "launch",
+            "port": 9001,//php.iniのxdebug.remote_portと同じ値にする
+            "pathMappings": {
+                "/var/www/html":"${workspaceRoot}/src"
+            }
+        }
+    ]
+}
